@@ -1,0 +1,60 @@
+/* .fake-card {
+    background-image: url("https://i.imgflip.com/4u05zm.png");
+    height:400px;
+    width:300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+#big-card-holder {
+    position: relative;
+    height:360px;
+    width:230px;
+    margin:auto;
+    transform: scale(0.8);
+}
+
+.card-holder {
+    margin:auto;
+}
+
+.card-txt {
+    position: absolute;
+    font-size: 10pt;
+}
+
+
+
+#card-id {
+    top: 27px;
+    left: 14px;
+    text-align: center;
+    color:white;
+}
+
+
+#card-sprite {
+    top:50px;
+    right:65px;
+    transform: scale(1.4);
+}
+
+#card-title {
+    top:11px;
+    left: 60px;
+}
+
+#card-type { 
+    top: 175px;
+    left: 20px;
+}
+
+#card-ability {
+    top: 195px;
+    left: 20px;
+}
+
+#card-move {
+    top: 215px;
+    left: 20px;
+}
